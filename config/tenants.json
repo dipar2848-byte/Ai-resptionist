@@ -1,0 +1,41 @@
+{
+  "clients": [
+    {
+      "client_id": "clinic_a",
+      "phone_number": "+919000000001",
+      "business_name": "Example Dental Clinic",
+      "services": ["consultation", "teeth cleaning", "root canal", "whitening"],
+      "working_hours": "10:00-18:00",
+      "timezone": "Asia/Kolkata",
+      "tone": "warm and professional",
+      "booking_rules": "Only accept appointments within working hours (10am-6pm), Monday to Saturday. Each slot is 30 minutes. Do not book on Sundays.",
+      "faq": {
+        "location": "Bandra West, Mumbai",
+        "pricing": "Consultation is ₹500; other services vary and are quoted after consultation.",
+        "parking": "Free street parking available after 11am.",
+        "insurance": "We accept most major dental insurance plans."
+      },
+      "greeting": "Thank you for calling Example Dental Clinic. How can I help you today?",
+      "fallback_message": "I'm sorry, I'm having a little trouble right now. Let me take your name and number so our front desk can call you back shortly.",
+      "transfer_number": "+919000000099"
+    },
+    {
+      "client_id": "salon_b",
+      "phone_number": "+919000000002",
+      "business_name": "Glow Hair & Beauty Salon",
+      "services": ["haircut", "hair color", "facial", "manicure", "pedicure", "bridal makeup"],
+      "working_hours": "09:00-20:00",
+      "timezone": "Asia/Kolkata",
+      "tone": "friendly and upbeat",
+      "booking_rules": "Open every day 9am-8pm. Bridal makeup requires booking at least 3 days in advance. Standard services are 45 minutes.",
+      "faq": {
+        "location": "Koramangala, Bangalore",
+        "pricing": "Haircut from ₹400, color from ₹1500, facial from ₹800.",
+        "walkins": "Walk-ins welcome but appointments get priority."
+      },
+      "greeting": "Hi! Thanks for calling Glow Hair and Beauty. What can I do for you today?",
+      "fallback_message": "Sorry about that! Let me grab your name and number and we'll call you right back.",
+      "transfer_number": "+919000000098"
+    }
+  ]
+}
